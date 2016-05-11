@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ManualAnimationViewController.h"
+#import "EasingKeyFrameAnimationViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (strong, nonatomic) NSArray *items;
 @end
@@ -17,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.items = @[@"9.4"];
+    self.items = @[@"9.4",@"10.3"];
     
 }
 
@@ -33,13 +34,16 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
-        case 0:
-        {
+        case 0:{
             ManualAnimationViewController *man = [ManualAnimationViewController new];
-            [self.navigationController  pushViewController:man animated:YES];
+            [self.navigationController pushViewController:man animated:YES];
             
         }
             break;
+        case 1:{
+            EasingKeyFrameAnimationViewController *eas = [EasingKeyFrameAnimationViewController new];
+            [self.navigationController pushViewController:eas animated:YES];
+        }
             
         default:
             break;

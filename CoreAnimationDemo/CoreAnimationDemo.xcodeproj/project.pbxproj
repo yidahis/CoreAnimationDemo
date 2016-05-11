@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE7168411CE2CA6700ECC482 /* EasingKeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7168401CE2CA6700ECC482 /* EasingKeyFrameAnimationViewController.m */; };
 		EEE3288B1CE1841F00FDB876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE3288A1CE1841F00FDB876 /* main.m */; };
 		EEE3288E1CE1841F00FDB876 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE3288D1CE1841F00FDB876 /* AppDelegate.m */; };
 		EEE328911CE1841F00FDB876 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE328901CE1841F00FDB876 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE71683F1CE2CA6700ECC482 /* EasingKeyFrameAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasingKeyFrameAnimationViewController.h; sourceTree = "<group>"; };
+		EE7168401CE2CA6700ECC482 /* EasingKeyFrameAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasingKeyFrameAnimationViewController.m; sourceTree = "<group>"; };
 		EEE328861CE1841F00FDB876 /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE3288A1CE1841F00FDB876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEE3288C1CE1841F00FDB876 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				EEE328901CE1841F00FDB876 /* ViewController.m */,
 				EEE328BC1CE188A300FDB876 /* ManualAnimationViewController.h */,
 				EEE328BD1CE188A300FDB876 /* ManualAnimationViewController.m */,
+				EE71683F1CE2CA6700ECC482 /* EasingKeyFrameAnimationViewController.h */,
+				EE7168401CE2CA6700ECC482 /* EasingKeyFrameAnimationViewController.m */,
 				EEE328921CE1841F00FDB876 /* Main.storyboard */,
 				EEE328951CE1841F00FDB876 /* Assets.xcassets */,
 				EEE328971CE1841F00FDB876 /* LaunchScreen.storyboard */,
@@ -290,6 +295,7 @@
 				EEE328911CE1841F00FDB876 /* ViewController.m in Sources */,
 				EEE3288E1CE1841F00FDB876 /* AppDelegate.m in Sources */,
 				EEE3288B1CE1841F00FDB876 /* main.m in Sources */,
+				EE7168411CE2CA6700ECC482 /* EasingKeyFrameAnimationViewController.m in Sources */,
 				EEE328BE1CE188A300FDB876 /* ManualAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +522,7 @@
 				EEE328B51CE1842000FDB876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEE328B61CE1842000FDB876 /* Build configuration list for PBXNativeTarget "CoreAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				EEE328B81CE1842000FDB876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEE328B91CE1842000FDB876 /* Build configuration list for PBXNativeTarget "CoreAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				EEE328BB1CE1842000FDB876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
